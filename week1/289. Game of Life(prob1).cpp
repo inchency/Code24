@@ -62,12 +62,13 @@ public:
             }
         }
         // Ãâ·Â
-        for (int i = 0; i < newBoard.size(); i++) {
+        /*for (int i = 0; i < newBoard.size(); i++) {
             for (int j = 0; j < newBoard[i].size(); j++) {
                 cout << newBoard[i][j] << " ";
             }
             cout << endl;
-        }
+        }*/
+        board = newBoard;
     }
     bool isInBoard(int y, int x, int boardYSize, int boardXSize) {
         if (y >= 0 && x >= 0 && y < boardYSize && x < boardXSize)
