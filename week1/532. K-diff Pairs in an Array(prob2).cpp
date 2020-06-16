@@ -11,9 +11,6 @@ public:
         int res = 0;
         set<int>s;
         sort(nums.begin(), nums.end());
-        /*for (int i = 0; i < nums.size(); i++) {
-            cout << nums[i] << " ";
-        }*/
         int size = nums.size();
         for (int i = 0; i < size-1; i++) {
             if (s.find(nums[i]) != s.end()) continue;
